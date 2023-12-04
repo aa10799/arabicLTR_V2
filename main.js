@@ -360,7 +360,7 @@ timeline.push(startExperiment);
   //define fixation
         var fixation = {
             type: jsPsychHtmlKeyboardResponse,
-            stimulus: '<div style="font-size:60px;">#####</div>',
+            stimulus: '<div style="font-size:60px;">######</div>',
             choices: 'NO_KEYS',
             trial_duration: 895,
             task: 'fixation',
@@ -392,7 +392,7 @@ timeline.push(startExperiment);
 // Define the backward mask (same as the forward mask)
          var backward_mask = {
            type: jsPsychHtmlKeyboardResponse,
-          stimulus: '<div style="font-size:60px;">#####</div>',
+          stimulus: '<div style="font-size:60px;">######</div>',
           trial_duration: 0, // Immediate display
              };
 
@@ -427,7 +427,7 @@ timeline.push(startExperiment);
         return `
             ${targetHtml}
             ${probeHtml}
-            <div style="font-size:60px;">#####</div>
+            <div style="font-size:60px;">######</div>
         `;
     },
     choices: ['a', 'l'],

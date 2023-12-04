@@ -1,7 +1,7 @@
 var consent_trial = [
     "<div style='text-align: left;'>" + // Align the text to the left
     "<h>" +
-        "<i>Please read this information carefully before deciding whether you would like to participate in this study. You have to be 18 years old or older to participate in this study or with a parent's permission. </i>" +
+        "<i>Please read this information carefully before deciding whether you would like to participate in this study. You have to be 18 years old or older to participate in this study. </i>" +
     "</h>" +
 
     "<p>" +

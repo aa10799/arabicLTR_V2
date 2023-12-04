@@ -366,7 +366,7 @@ timeline.push(startExperiment);
             task: 'fixation',
         };
         
-//define trial stimuli array for timeline variables 
+//define trial stimuli array for timeline variables
        
   
 
